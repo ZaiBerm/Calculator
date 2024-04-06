@@ -1,7 +1,8 @@
 body {
   margin: 0px;
   background-color: rgb(210, 210, 255);
-  height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -53,14 +54,14 @@ main {
 }
 
 .last-btn {
-  padding-top: 24px;
+  margin-top: 50px;
   display: flex;
   gap: 20px;
 }
 
 .last-btn button{
   height: 100px;
-  width: 23.5%;
+  width: 36.5%;
   background-color: white;
   border-radius: 10px;
   font-size: 4rem;
@@ -68,4 +69,17 @@ main {
   color:rgb(80, 80, 80);
   border: none;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  transition: all 0.1s;
+}
+
+button:hover {
+  background-color: rgb(210, 210, 255);
+}
+
+button:active {
+  background-color: rgb(80, 80, 80);
+  color: rgb(210, 210, 255);
 }
